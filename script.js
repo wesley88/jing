@@ -23,9 +23,13 @@ var populateText = function(){
 
     var container = $('.container');
 
+    console.log('root', container);
+
     text.forEach(function(section){
         var ele = $('<div class="section"></div>');
-        
+
+        console.log('sec', section)
+
         showSection(section, container);
 
         container.append(ele);
