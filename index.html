@@ -7,23 +7,23 @@ window.text = [
     [
         '卷上',
 
-        '如来慈愍  转大法轮',
+        '如来慈愍 转大法轮',
         '婆罗门女救慈亲',
         '觉华度迷津',
-        '摩耶夫人  请问地藏因',
+        '摩耶夫人 请问地藏因',
 
         '南無地藏王菩薩摩訶薩',
         '南無地藏王菩薩摩訶薩',
         '南無地藏王菩薩摩訶薩',
     // ],
-        '* * * * * * * * *',
+        ' ',
     // [
         '卷中',
 
-        '普贤启问  地藏宏开',
+        '普贤启问 地藏宏开',
         '三途六道绝尘埃',
         '普广问如来',
-        '授记十斋  接引上莲台',
+        '授记十斋 接引上莲台',
 
         '南無地藏王菩薩摩訶薩',
         '南無地藏王菩薩摩訶薩',
@@ -32,16 +32,16 @@ window.text = [
     [
         '卷下',
 
-        '地藏本誓  校量经因',
+        '地藏本誓 校量经因',
         '癃残瘖哑是前生',
         '今世讽大乘',
-        '福利无穷  决定宝莲生',
+        '福利无穷 决定宝莲生',
 
         '南無地藏王菩薩摩訶薩',
         '南無地藏王菩薩摩訶薩',
         '南無地藏王菩薩摩訶薩',
     // ],
-        '* * * * * * * * *',
+        ' ',
     // [
         '地藏菩薩妙難論',
         '化現金容處處分',
@@ -97,11 +97,19 @@ var populateText = function(){
 $(document).ready(populateText);
   </script>
   <style>
+  *{
+    box-sizing: border-box;
+  }
   .char {
     display: block;
     clear: both;
-    margin: 0in 0.11in;
-    font-size: 0.25in;
+    margin: 0;
+    padding: 0in 0.25in 0in 0.03in;
+    height: 0.4in;
+    width: 0.5in;
+    font-size: 0.27in;
+    font-weight: 900;
+    font-family: arial;
   }
 
   .line {
@@ -116,10 +124,8 @@ $(document).ready(populateText);
   .container {
     width: 11in;
     height: 8.5in;
-    box-sizing: border-box;
-    padding: 0.5in;
+    padding: 0.2in;
     overflow: hidden;
-    border: 0.5px solid black;
   }
   </style>
 </head>
